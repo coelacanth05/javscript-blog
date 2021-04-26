@@ -1,2 +1,2 @@
-# javscript-blog
+# OREILLY-JavaScript
 Created with CodeSandbox
