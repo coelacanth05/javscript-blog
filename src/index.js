@@ -1,5 +1,8 @@
-if(window.confirm("明日は晴れますか？")){
-console.log('はい、晴れです');}
-else{
-console.log("明日は雨です");
+let arr = 1;
+if(arr >= 3){
+console.log("arrは3より上です");
+}else if(arr >= 2) {
+console.log("arrは2以上です");
+}else{
+console.log("arrは2より下です");
 }
