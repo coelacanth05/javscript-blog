@@ -1,4 +1,5 @@
-for (let x=5; x<10; x++){
-  console.log('xの値は'+x);
+let fruits = {apple:100,grape:300,lemon:150};
+for (let shop in fruits){
+  console.log(shop+'='+fruits[shop]);
 }
 
