@@ -1,5 +1,8 @@
-let fruits = {apple:100,grape:300,lemon:150};
-for (let shop in fruits){
-  console.log(shop+'='+fruits[shop]);
-}
+let c = 7;
+let d = ++c;
+console.log(c);
+console.log(d);
+
+
+
 
