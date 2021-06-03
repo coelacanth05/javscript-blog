@@ -1,9 +1,6 @@
 
 const win_width = window.innerWidth;
-alert(win_width);
-
-
-
-
-
-
+const btnC = document.getElementById("clickEvent") 
+btnC.addEventListener("click" , event => {
+  alert(win_width);
+})
