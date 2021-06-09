@@ -4,6 +4,6 @@
 //   alert(win_width);
 // })
 
-const num1 = 5
-const num2 = 8
+const num1 = "プログラミング"
+const num2 = "学習でした"
 alert(num1+num2)
