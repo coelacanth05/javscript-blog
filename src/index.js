@@ -1,9 +1,5 @@
-// const win_width = window.innerWidth;
-// const btnC = document.getElementById("clickEvent") 
-// btnC.addEventListener("click" , event => {
-//   alert(win_width);
-// })
+let text1 = 'リンゴ・バナナ';
+let text2 = 'レモン';
+let my_fruits = (text1 + text2).replace('バナナ', '');
 
-const num1 = "プログラミング"
-const num2 = "学習でした"
-alert(num1+num2)
+alert(my_fruits);
