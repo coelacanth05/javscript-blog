@@ -1,5 +1,6 @@
-$(function () {
-  $("li").on("click", function () {
-    alert($(this).attr("class"));
-  });
-});
+
+document.getElementById("btn").onclick = function() {
+setTimeout(function(){
+alert("2秒経過")
+},2000)
+}
