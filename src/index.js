@@ -1,1 +1,3 @@
-$("p").addClass("is-active");
+$(function () {
+  $("p").removeClass("red");
+});
