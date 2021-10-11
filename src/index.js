@@ -1,9 +1,17 @@
-// $("p").on('click',function(){
-//   $(this).toggleClass("is-active")
-// })
+// $(() => {
+//   $(".text").prepend("<p>日曜日</p>");
+// });
 
-// document.getElementById('p').style.color = "bule"
+// const pTop = document.getElementById('id-text')
+// const newP = document.createElement('p')
+// newP.textContent = '日曜日'
+// pTop.before(newP)
 
-document.getElementById("p").onclick = () => {
-  document.getElementById("p").classList.toggle("is-active");
-};
+// $(() => {
+//   $(".text").append("<p>日曜日</p>");
+// });
+
+const pTop = document.getElementById("id-text");
+const newP = document.createElement("p");
+newP.textContent = "日曜日";
+pTop.after(newP);
