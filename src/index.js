@@ -8,9 +8,9 @@
 //   });
 // });
 
-document.getElementById("txt").addEventListener("click", () => {
-  document.getElementById("ci-txt").style.display = "none";
-});
+// document.getElementById("txt").addEventListener("click", () => {
+//   document.getElementById("ci-txt").style.display = "none";
+// });
 
 // $(function () {
 //   $(".txt").click(function () {
@@ -18,11 +18,11 @@ document.getElementById("txt").addEventListener("click", () => {
 //   });
 // });
 
-// document.getElementById("txt").addEventListener("click", () => {
-//   const ciTxt = document.getElementById("ci-txt");
-//   if (ciTxt.style.display == "none") {
-//     ciTxt.style.display = "block";
-//   } else {
-//     ciTxt.style.display = "none";
-//   }
-// });
+document.getElementById("txt").addEventListener("click", () => {
+  const ciTxt = document.getElementById("ci-txt");
+  if (ciTxt.style.display == "none") {
+    ciTxt.style.display = "block";
+  } else {
+    ciTxt.style.display = "none";
+  }
+});
