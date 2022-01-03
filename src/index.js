@@ -1,21 +1,10 @@
-// document.getElementById("txt").addEventListener("click", () => {
-//   const uptxt = document.getElementById("fadeIn_txt");
-//   uptxt.style.display = "block";
-// });
+// alert('alert 出力しました')
+
+// const up = 'alert 出力しました2'
+// alert(up)
+
+// alert(20 + (20 + 30))
 
 // $(function () {
-//   $(".txt").click(function () {
-//     $(".fadeIn_txt").fadeIn("slow");
-//   });
-// });
-
-// document.getElementById("txt").addEventListener("click", () => {
-//   const outtxt = document.getElementById("fadeOut_txt");
-//   outtxt.style.display = "none";
-// });
-
-$(function () {
-  $(".txt").click(function () {
-    $(".fadeOut_txt").fadeOut("slow");
-  });
-});
+//   alert("alert jQueryで出力しました3")
+// })
