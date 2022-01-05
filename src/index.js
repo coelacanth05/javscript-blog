@@ -1,7 +1,5 @@
-// alert('alert 出力しました')
-
 // const up = 'alert 出力しました2'
-// alert(up)
+//  alert(up)
 
 // alert(20 + (20 + 30))
 
